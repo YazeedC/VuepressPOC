@@ -1,5 +1,5 @@
 {
-  "name": "VuepressV1",
+  "name": "vuepress-poc",
   "version": "0.0.1",
   "description": "datasite",
   "main": "index.js",
@@ -10,10 +10,15 @@
   "repository": "/VuepressV1",
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "start": "node ./file-server.js"
+
   },
   "license": "MIT",
   "devDependencies": {
     "vuepress": "^1.5.3"
+  },
+  "dependencies": {
+    "express": "^4.17.1"
   }
 }
